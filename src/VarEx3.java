@@ -5,7 +5,24 @@ public class VarEx3 {
 	 final int score; //= 100;
 	 score = 200;
 	 
-	 System.out.println(score);
+	 
+	boolean power = true;
+	
+	byte b = 127; // -128~127
+	
+	
+	float f = 3.14f;  // float에는 항상 f를 뒤에 붙여줘야
+	double d = 3.14;
+	
+	long I = 10_000_000_000L; // integer 최댓값 20억
+	
+	int oct = 010; // 8진수, 10수로 8
+	int hex = 0x10; // 16진수ㅡ 10진수로 16
+	 System.out.println(10.);
+	 System.out.println(.10);
+	 System.out.println(10f); // 10.0
+	 System.out.println(1e3); // 1000.0
+	 
 
 	}
 

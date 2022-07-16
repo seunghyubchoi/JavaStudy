@@ -12,5 +12,6 @@ public class ScanfEx1 {
 		String input = scanner.nextLine(); // 라인 단위로의 입력을 받음
 		int num = Integer.parseInt(input);
 		System.out.println(num);
+		scanner.close();
 	}
 }

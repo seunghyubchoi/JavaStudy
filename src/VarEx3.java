@@ -32,6 +32,16 @@ public class VarEx3 {
 		System.out.println("" + 7 + 7); // 77
 		System.out.println(7 + 7 + ""); // 14
 
+		String s1 = "3";
+		System.out.println('3' - '0');
+		System.out.println("3".charAt(0) - '0');
+		System.out.println(s1.charAt(0) - '0');
+		System.out.println('3' - '0' + 1);
+		System.out.println(Integer.parseInt("3") + 1);
+		System.out.println("3" + 1);
+		System.out.println(3 + '0');
+		
+		
 
 	}
 

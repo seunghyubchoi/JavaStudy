@@ -17,6 +17,14 @@ public class Ex3_2 {
 		j = i; // 전위
 		System.out.println("j=++i; 실행 후, i=" + i + ", j=" + j);
 		
+
+	int a  = 1_000_000;
+	int b = 2_000_000;
+	
+	long c = (long)a * b;
+	System.out.println(c);
+				
+		
 	}
 
 }

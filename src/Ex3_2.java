@@ -23,6 +23,10 @@ public class Ex3_2 {
 	
 	long c = (long)a * b;
 	System.out.println(c);
+	
+	double pi = 3.141592;
+	double shortPi = Math.round(pi * 1000) / 1000.0;
+	System.out.println(shortPi);
 				
 		
 	}
